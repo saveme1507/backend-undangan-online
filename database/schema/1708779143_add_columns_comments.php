@@ -6,11 +6,6 @@ use Core\Database\Table;
 
 return new class implements Migration
 {
-    /**
-     * Jalankan migrasi.
-     *
-     * @return void
-     */
     public function up()
     {
         Schema::table('comments', function (Table $table) {

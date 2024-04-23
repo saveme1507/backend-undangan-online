@@ -31,6 +31,6 @@ return new class implements Migration
      */
     public function down()
     {
-        Schema::drop('users');
+        // Schema::drop('users');
     }
 };
